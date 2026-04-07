@@ -1,1 +1,25 @@
-﻿
+﻿body {
+	font-family: arial;
+	color: Darkblue;
+	margin: 30px;
+	background-color: white;
+}
+
+.the1 {
+	text-align: center;
+	color: yellow;
+	background-color:Darkblue;
+	height: 200px;
+	font-size: 25px; 
+}
+
+h3 {
+	color: red;
+}
+ 
+ .LH {
+	 text-align: center;
+	 color: yellow;
+	 background-color: silver;	 	 
+ }
+

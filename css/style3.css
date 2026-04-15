@@ -1,0 +1,22 @@
+*{
+   padding: 20px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-align: center;
+   font-size: 30px;
+}
+
+h3{
+    color:rgb(242, 255, 0);
+    font-size: 50px;
+}
+.container{
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+    border: 10px solid #fe0000c7;
+
+}
+div.bang{
+    background-color: aquamarine;
+    border-radius:20px;
+    border: 10px solid #fe0000c7;
+}

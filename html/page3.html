@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="vi">
+      <head>
+	<title>Form đăng ký</title>
+	<meta charset="utf-8">
+	<link rel = "stylesheet" href = "../css/style3.css">
+      </head>
+      <body>
+            <div class="container">
+			<form id="frmLogin">
+				<h3 class="title">Form đăng ký</h3>
+            <div class="bang">
+				<div class="form-group">
+					<label for="txtUsername">Họ tên đăng ký:</label>
+					<input class="form-control" type="text" id="txtUsername" name="textUsername" placeholder="Nhập họ tên đăng ký" required>
+				</div>
+
+
+
+
+				<div class="form-group">
+					<label for="txtMssv">MSSV:</label>
+					<input class="form-control" type="text" id="txtMssv" name="textMssv" placeholder="Nhập MSSV" required>
+				</div>
+
+
+
+                        <div class="form-group">
+					<label for="ngaysinh">Năm sinh:</label>
+		                  <input class="form-control" type="date" id="ngaysinh" name="ngaysinh" required>
+                        </div>
+
+
+
+                         <div class="form-group">
+                              <label >Giới tính:</label>
+					<input class="form-control" type="radio" id="rdNam" name="gioitinh">
+                                     <label for="rdNam">Nam</label>
+                              <input class="form-control" type="radio" id="rdNu" name="gioitinh">
+                                     <label for="rdNu">Nữ</label>
+                        </div>
+
+
+
+                        <div class="form-group">
+                              <label for="Sblop">Chọn lớp:</label>
+                              <select id="Sblop" name="Sblop" required>
+                                  <option value="" disabled selected>--Chọn mã lớp--</option>
+                                  <option value="tta">DA24TTA</option>
+                                  <option value="ttb">DA24TTB</option>
+                                  <option value="ttc">DA24TTC</option>
+                                  <option value="ttd">DA24TTD</option>
+                              </select>
+                        </div>
+
+
+
+                       <div class ="number">
+                            <label for="phone">Số điện thoại:</label>
+                            <input type="tel" id="phone" name="phone">  
+                        </div>
+
+
+
+                        <div class="email">
+                             <label for="email" class="form-label">Email:</label>
+                             <input type="email" class="form-control" id="email" placeholder="Nhập email">
+                        </div>
+
+
+
+                         <div class="form-group">
+                              <label>Điểm mạnh:</label>
+                                  <input type="checkbox" name="chkDiemmanh" id="chktkw">
+                                    <label for="chktkw">Chơi bóng đá</label>
+                                  <input type="checkbox" name="chkDiemmanh" id="chkhh">
+                                    <label for="chkhh">Tập thể hình</label> 
+                                  <input type="checkbox" name="chkDiemmanh" id="chktt">
+                                    <label for="chktt">Thiết kế web</label>
+                                  <input type="checkbox" name="chkDiemmanh" id="chklt">
+                                    <label for="chklt">Lập trình</label>
+                        </div>
+            </div>
+                        
+                </div>
+
+				    <input class="but" type="submit" name="sbLogin" value="Đăng ký">
+				    <input class="but" type="reset" name="rsCancel" value="Nhập lại">
+				
+			</form>
+		</div>
+
+      
+      </body>
+</html>

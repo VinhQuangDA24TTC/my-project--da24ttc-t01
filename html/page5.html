@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang ="vi">
+<htmkl>
+	<head>
+		<title> Thông tin cá nhân </title>
+		<meta charset = "UTF-8">
+		<link rel="stylesheet" href ="../css/style5.css" >
+	</head>
+
+	<body>
+			
+			<form id="frminbangcc">
+				<h3> <b> Bảng cửu chương </b> </h3>
+				<div>
+					<label for ="txtnumber"> Nhập số: </label>	
+					<input class="form-control" type = "txt" id="txtnumber" name ="txtnumber" placeholder="nhập số" maxlength="10">
+					<input type ="button" value="In" onclick="inBCC()">
+				</div>
+					<div id ="kq">
+					</div>
+			</form>
+		<script>
+			function inBCC(){
+			const form= document.forms["frminbangcc"];
+			let so = parseInt(form["txtnumber"].value);
+			let kq="";
+			for (let i=1; i<11; i++)
+				{
+					kq += so + " x " + i + " = " + (so*i) + "<br>";
+				}
+				document.getElementById("kq").innerHTML = kq;
+			}
+		</script>
+	</body>
+</hmtl>

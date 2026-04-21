@@ -1,0 +1,11 @@
+*{
+    Text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+form#frminbangcc{
+    background-color: rgb(12, 12, 114);
+    border-radius: 20px;
+    color:rgb(255, 166, 0) ;
+}

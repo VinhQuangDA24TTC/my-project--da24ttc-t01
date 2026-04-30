@@ -1,0 +1,21 @@
+*{
+   text-align: center;
+   font-size: 60px;
+   background-color: rgb(218, 218, 218);
+}
+.product-item img{
+    width: 600px;
+    margin:auto;
+    display: block;
+    border-radius: 20px;
+}
+.product-item p{
+    color: rgb(180, 0, 0);
+    font-size: 30px;;
+    text-align: center;
+}
+.product-item a{
+    color: rgb(0, 214, 175);
+    font-size: 30px;
+}
+

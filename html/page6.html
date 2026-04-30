@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+      <head>
+	<title>Bảng cửu chương</title>
+	<meta charset="utf-8">
+	<link rel = "stylesheet" href = "../css/style6.css">
+      </head>
+      <body>
+            <script>
+                  const newDiv=document.createElement("div");                                   //Tạo 1 thẻ div
+                        newDiv.setAttribute("class","product-item");
+
+                  const newText=document.createTextNode("Thành công");                          //Tạo chữ thành công
+                        newDiv.appendChild(newText);
+                        newDiv.appendChild(document.createElement("br"));
+
+                  const productImage=document.createElement ("img");                            //Tạo thẻ chứa ảnh
+                        newDiv.appendChild(productImage);
+                        productImage.setAttribute("src","../Assets/Images/lumixs52x.jpg");      // Đường dẫn đến ảnh
+                        newDiv.appendChild(document.createElement("br"));                       // Dùng để xuống dòng 
+
+                  const productinfor=document.createElement ("p");                              //Tạo thẻ chứa thông tin sản phẩm
+                        productinfor.innerHTML="PANASONIC LUMIX S5 MARK II X";
+                        newDiv.appendChild(productinfor);
+
+                  const price=document.createElement ("p");                                     //Tạo thẻ để giá
+                        price.innerHTML="giá: 43.000.000vnđ";                                   //Gán giá sản phẩm
+                        newDiv.appendChild(price);
+
+                  const link=document.createElement ("a");  
+                        link.href = "https://mayanhhoangto.com/mirrorless/mirrorless-other/may-anh-panasonic-lumix-s5ii-x-moi-gia-tot/?srsltid=AfmBOors7HNYY7-fB7XLvFloBmEiHi7kbiYec6MGJ35zdCzd-oHLynST";
+                        link.innerHTML="Xem chi tiết tại đây";
+                        newDiv.appendChild(link);  
+
+                document.body.appendChild(newDiv);                                              //Hiển thị ra web
+            </script> 
+      </body>
+</html>

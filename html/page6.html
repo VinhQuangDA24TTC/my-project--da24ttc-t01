@@ -3,17 +3,22 @@
       <head>
 	<title>Bảng cửu chương</title>
 	<meta charset="utf-8">
-	<link rel = "stylesheet" href = "../css/style6.css">
+	<!--<link rel = "stylesheet" href = "../css/style6.css">-->
       <script src ="../js/lib.js"></script>
+      <!-- Latest compiled and minified CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+      <!-- Latest compiled JavaScript -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
       </head>
       <body>
             <div class="container">
-                  <div class="product-list row row-cols-1 row-cols-3 g-4" id ="product-list">
+                  <div class="product-list row row-cols-2 row-cols-4 g-3" id ="product-list">
                   </div>
             </div>
             <script>
                   productlist.forEach(function(item){
-                  addproduct(item.id, item.name, item.price, item.image, item.productlink);
+                  addproduct(item.id, item.name, item.price, item.image, item.productLink);
                   });
             </script>
 
